@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561C2887262DBDBF003608B4 /* TinyChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561C2886262DBDBF003608B4 /* TinyChatApp.swift */; };
+		561C2889262DBDBF003608B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561C2888262DBDBF003608B4 /* ContentView.swift */; };
+		561C288B262DBDC0003608B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561C288A262DBDC0003608B4 /* Assets.xcassets */; };
+		561C288E262DBDC0003608B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561C288D262DBDC0003608B4 /* Preview Assets.xcassets */; };
+		561C2898262DC47B003608B4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 561C2897262DC47B003608B4 /* Realm */; };
+		561C289A262DC47B003608B4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 561C2899262DC47B003608B4 /* RealmSwift */; };
+		561C289D262DC83B003608B4 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561C289C262DC83B003608B4 /* ChatView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		561C2883262DBDBF003608B4 /* TinyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		561C2886262DBDBF003608B4 /* TinyChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyChatApp.swift; sourceTree = "<group>"; };
+		561C2888262DBDBF003608B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		561C288A262DBDC0003608B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561C288D262DBDC0003608B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		561C288F262DBDC0003608B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561C289C262DC83B003608B4 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561C2880262DBDBF003608B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561C289A262DC47B003608B4 /* RealmSwift in Frameworks */,
+				561C2898262DC47B003608B4 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561C287A262DBDBF003608B4 = {
+			isa = PBXGroup;
+			children = (
+				561C2885262DBDBF003608B4 /* TinyChat */,
+				561C2884262DBDBF003608B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		561C2884262DBDBF003608B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561C2883262DBDBF003608B4 /* TinyChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561C2885262DBDBF003608B4 /* TinyChat */ = {
+			isa = PBXGroup;
+			children = (
+				561C2886262DBDBF003608B4 /* TinyChatApp.swift */,
+				561C2888262DBDBF003608B4 /* ContentView.swift */,
+				561C289C262DC83B003608B4 /* ChatView.swift */,
+				561C288A262DBDC0003608B4 /* Assets.xcassets */,
+				561C288F262DBDC0003608B4 /* Info.plist */,
+				561C288C262DBDC0003608B4 /* Preview Content */,
+			);
+			path = TinyChat;
+			sourceTree = "<group>";
+		};
+		561C288C262DBDC0003608B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				561C288D262DBDC0003608B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561C2882262DBDBF003608B4 /* TinyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561C2892262DBDC0003608B4 /* Build configuration list for PBXNativeTarget "TinyChat" */;
+			buildPhases = (
+				561C287F262DBDBF003608B4 /* Sources */,
+				561C2880262DBDBF003608B4 /* Frameworks */,
+				561C2881262DBDBF003608B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyChat;
+			packageProductDependencies = (
+				561C2897262DC47B003608B4 /* Realm */,
+				561C2899262DC47B003608B4 /* RealmSwift */,
+			);
+			productName = TinyChat;
+			productReference = 561C2883262DBDBF003608B4 /* TinyChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		561C287B262DBDBF003608B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					561C2882262DBDBF003608B4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 561C287E262DBDBF003608B4 /* Build configuration list for PBXProject "TinyChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 561C287A262DBDBF003608B4;
+			packageReferences = (
+				561C2896262DC47B003608B4 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
+			productRefGroup = 561C2884262DBDBF003608B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561C2882262DBDBF003608B4 /* TinyChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561C2881262DBDBF003608B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561C288E262DBDC0003608B4 /* Preview Assets.xcassets in Resources */,
+				561C288B262DBDC0003608B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561C287F262DBDBF003608B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561C2889262DBDBF003608B4 /* ContentView.swift in Sources */,
+				561C289D262DC83B003608B4 /* ChatView.swift in Sources */,
+				561C2887262DBDBF003608B4 /* TinyChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		561C2890262DBDC0003608B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		561C2891262DBDC0003608B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561C2893262DBDC0003608B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyChat/Preview Content\"";
+				DEVELOPMENT_TEAM = WQQLK89MX8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TinyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cosync.io.TinyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		561C2894262DBDC0003608B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyChat/Preview Content\"";
+				DEVELOPMENT_TEAM = WQQLK89MX8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TinyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cosync.io.TinyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561C287E262DBDBF003608B4 /* Build configuration list for PBXProject "TinyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561C2890262DBDC0003608B4 /* Debug */,
+				561C2891262DBDC0003608B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561C2892262DBDC0003608B4 /* Build configuration list for PBXNativeTarget "TinyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561C2893262DBDC0003608B4 /* Debug */,
+				561C2894262DBDC0003608B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		561C2896262DC47B003608B4 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		561C2897262DC47B003608B4 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 561C2896262DC47B003608B4 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		561C2899262DC47B003608B4 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 561C2896262DC47B003608B4 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 561C287B262DBDBF003608B4 /* Project object */;
+}
