@@ -25,7 +25,7 @@
 import SwiftUI
 import RealmSwift
 
-let app: RealmSwift.App? = RealmSwift.App(id: "tinychat-tdufp")
+let app: RealmSwift.App? = RealmSwift.App(id: "tinychat-vwhsb")
 
 struct ContentView: View {
     @State private var name = ""
